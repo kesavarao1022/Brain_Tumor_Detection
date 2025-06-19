@@ -32,9 +32,8 @@ Format: Images (.jpg or .png) and annotations in YOLO format (.txt)
 
 Classes: 0 for Tumor
 
----
-
 Folder structure:
+```
 dataset
 ├── images/
 │   ├── train/
@@ -42,7 +41,7 @@ dataset
 └── labels/
     ├── train/
     └── val/
-
+```
 
 ---
 ## ⚙️ Installation
