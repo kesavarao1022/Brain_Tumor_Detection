@@ -9,9 +9,6 @@ This project uses the YOLOv8 (You Only Look Once, Version 8) deep learning model
 - [Project Workflow](#project-workflow)
 - [Dataset](#dataset)
 - [Installation](#installation)
-- [Training](#training)
-- [Inference](#inference)
-- [Results](#results)
 - [Requirements](#requirements)
 
 ---
@@ -28,24 +25,14 @@ In this project:
 
 ---
 
-## 🔁 Project Workflow
-
-```mermaid
-graph TD
-    A[Data Collection] --> B[Data Annotation (YOLO Format)]
-    B --> C[Train-Test Split]
-    C --> D[Model Configuration (YOLOv8)]
-    D --> E[Training with Ultralytics]
-    E --> F[Evaluation and Metrics]
-    F --> G[Inference on New Images]
-    G --> H[Visualization and Interpretation]
-```
 ## 📂 Dataset
 The dataset contains MRI brain images with corresponding annotations for tumor regions.
 
 Format: Images (.jpg or .png) and annotations in YOLO format (.txt)
 
 Classes: 0 for Tumor
+
+---
 
 Folder structure:
 └── dataset/
