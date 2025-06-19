@@ -35,13 +35,14 @@ Classes: 0 for Tumor
 ---
 
 Folder structure:
-└── dataset/
-    ├── images/
-    │   ├── train/
-    │   ├── val/
-    └── labels/
-        ├── train/
-        ├── val/
+dataset/
+├── images/
+│   ├── train/
+│   └── val/
+└── labels/
+    ├── train/
+    └── val/
+
 
 ---
 ## ⚙️ Installation
